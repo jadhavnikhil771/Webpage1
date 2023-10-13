@@ -52,6 +52,18 @@
             height: 950px;
         }
      }
-     @media screen and (max-width:572px) {
-     
-     }
+     @media screen and (max-width:580px) {
+        section aside{
+            width: auto;
+            height: auto;
+            float: none;
+            padding: 5px;
+         }
+         section main{
+            width: auto;
+         }
+         section main h4,
+         section main h3{
+            padding: 10px 0px;
+         }
+    }   
